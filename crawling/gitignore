@@ -1,0 +1,26 @@
+.gitignore
+
+- 폴더 형상 관리 무시
+
+폴더이름/
+폴더이름
+
+예 ) app/build
+
+-파일 형상 관리 무시
+
+파일명(확장자 같이 포함)
+
+예 ) AppTest.java
+예 ) test/java/AppTest.java
+
+- 특정 확장자 모두 무시
+
+*.확장자
+
+예 ) *.properties
+
+-* 활용한 무시
+
+예 ) test/java/*/AppTest.java
+예 ) test/java/**/AppTest.java
